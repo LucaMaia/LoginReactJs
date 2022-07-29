@@ -7,6 +7,7 @@ import Home from "../pages/Home";
 import SignIn from "../pages/SignIn";
 import SignUp from "../pages/SignUp";
 import Dashboard from "../pages/dashboard";
+import Portfolio from "../pages/portfolio";
 
 const Private = ({Item}) => {
     const signed = false;
@@ -19,6 +20,7 @@ const RoutesApp = () => {
            <Fragment>
                <Routes>
                    <Route exact path="/home" element={<Private Item={Home}/>}/>
+                   <Route exact path="/portfolio" element={<Portfolio/>}/>
                    <Route exact path="/dashboard" element={<Dashboard/>}/>
                    <Route exact path="/" element={<SignIn/>}/>
                    <Route exact path="/signup" element={<SignUp/>}/>

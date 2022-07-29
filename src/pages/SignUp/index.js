@@ -26,7 +26,7 @@ const SignUp = () => {
             {/*    link={link}*/}
             {/*    titulo={link.titulo}*/}
             {/*/>*/}
-            <div style={{width:"40%",margin:"0 auto", textAlign:"center", borderRadius:"10px", padding:"30px",boxShadow: "rgba(0, 0, 0, 0.1) 0px 4px 12px"}}>
+            <div style={{width:"50%",margin:"0 auto", textAlign:"center", borderRadius:"10px", padding:"30px",boxShadow: "rgba(0, 0, 0, 0.1) 0px 4px 12px"}}>
                 <h1>Sign Up</h1>
 
                 <div>

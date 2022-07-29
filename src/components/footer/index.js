@@ -9,8 +9,7 @@ function Footer () {
                 style={{
                     backgroundColor:"#00008b",
                     height:"40px",
-                    width:"100%",
-                    marginTop:"200px",
+                    width:"100vw",
                     color:"white",
                     textAlign:"center",
                     position:"absolute"

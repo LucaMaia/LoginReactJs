@@ -21,13 +21,13 @@ const NavBarComponent = (props) => {
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div id="div-teste" className="collapse navbar-collapse" style={{ minWidth:"100px"}}>
-                    <ul className="navbar-nav" id="navbarNav">
-                        {link.map((item,index)=>{
+                <div id="div-teste" className="collapse navbar-collapse" style={{ minWidth:"100px", textAlign:"right"}}>
+                    <ul className="navbar-nav" id="navbarNav" style={{textAlign:"right"}}>
+                        {link.map((item)=>{
                                 link.at(-1)
                                 return (
-                                    <li className="nav-item" style={{display:"flex", flexWrap:"wrap"}}>
-                                        <a className="nav-link"  href={item.url}>
+                                    <li className="nav-item" style={{display:"flex", flexWrap:"wrap", textAlign:"right"}} >
+                                        <a className="nav-link"  href={item.url} style={{textAlign:"right"}}>
                                             {item.titulo}
                                         </a>
                                     </li>
